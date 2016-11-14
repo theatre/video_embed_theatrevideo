@@ -1,0 +1,6 @@
+name = "Video Embed theatre-video"
+description = "Provides theatre-video handler for Video Embed Fields."
+core = 7.x
+package = Media
+configure = admin/config/media/vef_video_styles
+dependencies[] = video_embed_field
